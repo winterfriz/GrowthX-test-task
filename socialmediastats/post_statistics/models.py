@@ -15,5 +15,6 @@ class PostStatistics(models.Model):
     likes_count = models.PositiveBigIntegerField(
         null=False,
     )
+    created_at = models.DateTimeField(auto_now_add=True)
 
 
